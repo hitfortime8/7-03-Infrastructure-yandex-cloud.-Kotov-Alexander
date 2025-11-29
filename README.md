@@ -7,17 +7,17 @@
 #### `Повторить демонстрацию лекции(развернуть vpc, 2 веб сервера, бастион сервер)`
 
 
-`Яндекс клауд до terraform apply
-![before-terra](img/before-terra.png)`
+`Яндекс клауд до terraform apply'
+![before-terra](img/before-terra.png)
 
-`Яндекс клауд после terraform apply
-![after-terra](img/after-terra.png)`
+`Яндекс клауд после terraform apply'
+![after-terra](img/after-terra.png)
 
-`Список виртуальных машин, созданных с помощью терраформ
-![VMS](img/VMs.png)`
+`Список виртуальных машин, созданных с помощью терраформ'
+![VMS](img/VMs.png)
 
-`Список сетей и подсетей
-![net](img/cloud-network.png)`
+`Список сетей и подсетей'
+![net](img/cloud-network.png)
 
 
 ---
