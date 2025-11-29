@@ -1,0 +1,1 @@
+# 7-03-Infrastructure-yandex-cloud.-Kotov-Alexander
