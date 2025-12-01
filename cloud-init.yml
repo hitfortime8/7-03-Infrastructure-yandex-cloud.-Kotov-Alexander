@@ -1,7 +1,8 @@
+#cloud-config
 users:
   - name: user
     groups: sudo
-    shell: /bun/bash
+    shell: /bin/bash
     sudo: ["ALL=(ALL) NOPASSWD:ALL"]
     ssh_authorized_keys:
-      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICysionz7EgNY6uosAtfh7e/kwcflnPR5+18k4KIw89d user@Ubuntu-netology-1
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL/CbdkOCO1gEcgYPV2hmuud7pCQrpig/OGCSy+N964U user@Ubuntu-netology-1

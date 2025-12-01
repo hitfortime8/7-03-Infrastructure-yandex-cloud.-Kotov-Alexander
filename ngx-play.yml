@@ -1,0 +1,22 @@
+---
+  - name: Install nginx
+    gather_facts: false
+    hosts: webservers
+    vars:
+      ansible_ssh_user: user
+    become: yes
+  
+    tasks: 
+      - name: sending package
+        copy:
+          src: ./packages/
+          dest: /var/cache/apt/archives/
+          owner: root
+          group: root
+          mode: '0644'
+      
+      - name: Install nginx from cache
+        apt:
+          name: nginx
+          state: present
+          update_cache: no
